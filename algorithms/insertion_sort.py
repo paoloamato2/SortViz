@@ -8,8 +8,8 @@ def insertion_sort(arr):
         while j >= 0 and key < arr[j]:
             arr[j + 1] = arr[j]
             j -= 1
-            yield arr  # Restituisci il passo corrente
+            yield arr  # Return the current step
         arr[j + 1] = key
-        yield arr  # Restituisci il passo corrente
+        yield arr  # Return the current step
 
-    yield arr  # Restituisci il risultato finale
+    yield arr  # Return the final result

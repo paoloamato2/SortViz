@@ -1,4 +1,3 @@
-# selection_sort.py
 def selection_sort(arr):
     n = len(arr)
 
@@ -8,8 +7,8 @@ def selection_sort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
 
-        # Scambia gli elementi se necessario
+        # Swap the elements if necessary
         arr[i], arr[min_index] = arr[min_index], arr[i]
-        yield arr  # Restituisci il passo corrente
+        yield arr  # Return the current step
 
-    yield arr  # Restituisci il risultato finale
+    yield arr  # Return the final result

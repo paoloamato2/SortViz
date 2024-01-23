@@ -5,7 +5,19 @@ from model import SortingAppModel
 from algorithms import bubble_sort, insertion_sort, selection_sort
 
 class SortingAppView:
+    """
+    The view class for the sorting visualizer application.
+    """
+
     def __init__(self, root, controller):
+        """
+        Initializes the SortingAppView.
+
+        Parameters:
+        - root: The root Tkinter window.
+        - controller: The controller object for the application.
+        """
+
         self.controller = controller
 
         # Tkinter variables for dropdown menu and text box
@@ -52,6 +64,10 @@ class SortingAppView:
             root.grid_rowconfigure(i, weight=1)
 
     def start_sorting(self):
+        """
+        Starts the sorting process based on the selected algorithm, list, and speed.
+        """
+
         algorithm_name = self.algorithm_var.get()
         data = list(map(int, self.list_entry.get().split(',')))
         speed = int(self.speed_var.get())
