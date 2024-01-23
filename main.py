@@ -1,19 +1,25 @@
 # main.py
 import sys
-import os
+import tkinter as tk
+from tkinter import ttk
+from ttkthemes import ThemedStyle
+from model import SortingAppModel
+from view import SortingAppView
 
-from algorithms import bubble_sort, selection_sort, insertion_sort
-from visualizer import gui
-import sys
+class SortingAppController:
+    def __init__(self):
+        self.root = tk.Tk()
+        self.root.title("Sorting Algorithm Visualizer")
 
-def main():
-    """
-    Entry point of the program.
-    Runs the GUI and exits the program afterwards.
-    """
-    gui.run_gui()
+        self.model = SortingAppModel()
+        self.view = SortingAppView(self.root, self)
 
-    sys.exit()
+    def run(self):
+        self.root.mainloop()
+
+    def start_sorting(self, algorithm, data, speed):
+        self.model.visualize_sorting(algorithm, data, speed)
 
 if __name__ == "__main__":
-    main()
+    app_controller = SortingAppController()
+    app_controller.run()

@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 from ttkthemes import ThemedStyle
 from algorithms import bubble_sort
-from visualizer import visualization
+from visualizer import sorting_visualizer
 import algorithms
 
 def start_sorting(algorithm_var, list_entry, speed_var):
@@ -23,7 +23,7 @@ def start_sorting(algorithm_var, list_entry, speed_var):
 
     # Execute the sorting algorithm
     if algorithm_function:
-        visualization.visualize_sorting(algorithm_function, sublist_to_sort, speed)
+        sorting_visualizer.visualize_sorting(algorithm_function, sublist_to_sort, speed)
 
 def run_gui():
     root = tk.Tk()
