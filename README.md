@@ -1,6 +1,6 @@
 # Sorting Algorithm Visualizer
 
-This project is a Sorting Algorithm Visualizer built with Python and Tkinter. It allows you to visualize different sorting algorithms in action.
+SortViz is a Python-based Sorting Algorithm Visualizer that provides an interactive way to observe and understand the mechanics of sorting algorithms.
 
 ## Project Structure
 
