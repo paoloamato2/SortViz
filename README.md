@@ -2,22 +2,6 @@
 
 SortViz is a Python-based Sorting Algorithm Visualizer that provides an interactive way to observe and understand the mechanics of sorting algorithms.
 
-## Project Structure
-
-The project has the following structure:
-.
-├── .gitignore
-├── algorithms/
-│   ├── bubble_sort.py
-│   ├── insertion_sort.py
-│   ├── selection_sort.py
-├── main.py
-├── model.py
-├── view.py
-├── visualizer/
-│   ├── sorting_visualizer.py
-
-
 ## Features
 
 - Visualize different sorting algorithms including Bubble Sort, Insertion Sort, and Selection Sort.
