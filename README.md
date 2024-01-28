@@ -31,6 +31,14 @@ The project has the following structure:
 3. Navigate into the project directory: `cd sorting-algorithm-visualizer`
 4. Run the application: `python main.py`
 
+## Class Diagram
+
+![Class Diagram]((https://github.com/paoloamato2/SortViz/assets/69688166/580b6625-8c3e-4186-8373-2f02c47fb3b5))
+
+## Sequence Diagram
+
+![Sequence Diagram](https://github.com/paoloamato2/SortViz/assets/69688166/58a2de17-3c6a-48d0-86e0-330e058dd1a1)
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
