@@ -33,7 +33,7 @@ The project has the following structure:
 
 ## Class Diagram
 
-![Class Diagram]((https://github.com/paoloamato2/SortViz/assets/69688166/580b6625-8c3e-4186-8373-2f02c47fb3b5))
+![Class Diagram](https://github.com/paoloamato2/SortViz/assets/69688166/580b6625-8c3e-4186-8373-2f02c47fb3b5)
 
 ## Sequence Diagram
 
